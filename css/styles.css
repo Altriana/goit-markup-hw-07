@@ -7,3 +7,21 @@ a:hover, button:hover{
     background-color:#404BBF;
 
 }
+.logo {
+    font-size: 18px;
+    font-weight:800;
+    line-height: 21px;
+}
+.web-logo{
+    color:#4D5AE5;
+}
+.studio-logo{
+    color: white;
+}
+button{
+    color:#4D5AE5 ;
+}
+footer{
+    background-color: #2E2F42;
+    color:white;
+}
