@@ -1,27 +1,45 @@
+root{
+    --iris-color:#4D5AE5;
+    --ocean-color:#404BBF;
+    --white-color:#fff;
+    --navy-color:#2E2F42;
+}
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color:#434455;
+    line-height: 1.5;
+}
+header{
+    background-color:var(--white-color);
 }
 a:hover, button:hover{
-    color: white;
-    background-color:#404BBF;
+    color:var(--white-color);
+    background-color:var(--ocean-color);
 }
 nav{
     font-weight: 500;
 }
+.web{
+    color: var(--iris-color);
+}
 .logo {
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight:800;
     line-height: 21px;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    
 }
-.web-logo{
-    color:#4D5AE5;
+.studio{
+    color:var(--navy-color);
 }
 .studio-logo{
-    color: white;
+    color: var(--white-color);
 }
 button{
-    color:#4D5AE5 ;
+    color:var(--iris-color);
     cursor: pointer;
     font-weight: 500;
 }
@@ -29,6 +47,6 @@ h3{
     font-weight: 500;
 }
 footer{
-    background-color: #2E2F42;
-    color:white;
+    background-color:var(--navy-color);
+    color:var(--white-color);
 }
