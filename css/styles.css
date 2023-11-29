@@ -1,8 +1,10 @@
-root{
+:root{
     --iris-color:#4D5AE5;
     --ocean-color:#404BBF;
     --white-color:#fff;
     --navy-color:#2E2F42;
+    --cloud-color:#F4F4FD;
+    --slate-color:#434455;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -16,27 +18,30 @@ a:hover, button:hover{
     color:var(--white-color);
     background-color:var(--ocean-color);
 }
-nav{
-    font-weight: 500;
-}
-.web{
-    color: var(--iris-color);
-}
 .logo {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight:800;
-    line-height: 21px;
+    line-height:1.17;
+    letter-spacing: 0.03em;
     text-decoration: none;
-    text-transform: uppercase;
-    
-    
+    text-transform: uppercase; 
+    color: var(--iris-color);
 }
 .studio{
     color:var(--navy-color);
 }
-.studio-logo{
-    color: var(--white-color);
+.link {
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    color: var(--navy-color);
+    text-decoration: none;
+}
+.address {
+    text-decoration: none;
+    color:var(--slate-color);
+    font-weight: 400;
+    font-style: normal;
 }
 button{
     color:var(--iris-color);
@@ -48,5 +53,8 @@ h3{
 }
 footer{
     background-color:var(--navy-color);
-    color:var(--white-color);
+    color:var(--cloud-color);
+}
+.studio-footer{
+    color: var(--cloud-color);
 }
