@@ -1,0 +1,9 @@
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    color:#434455;
+}
+a:hover, button:hover{
+    color: white;
+    background-color:#404BBF;
+
+}
