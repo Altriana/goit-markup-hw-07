@@ -80,3 +80,38 @@ address .list a {
 .studio-footer{
     color: var(--cloud-color);
 }
+.first-section {
+    background-color: var(--navy-color);
+    color: var(--white-color);
+}
+.h1-heading {
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
+    font-size: 56px;
+    text-align: center;
+}
+.index-button {
+    color: var(--white-color);
+    background-color: var(--iris-color);
+    font-size: 16px;
+    letter-spacing: 0.04em;
+}
+.h3-heading {
+    color: var(--navy-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.par-index {
+    letter-spacing: 0.02em;
+}
+.h2-heading {
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
