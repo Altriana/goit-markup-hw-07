@@ -10,13 +10,18 @@ body {
     font-family: 'Roboto', sans-serif;
     color:#434455;
     line-height: 1.5;
+    background-color: var(--white-color);
 }
 header{
     background-color:var(--white-color);
 }
-a:hover, button:hover{
+.logo:hover, button:hover,
+.logo:focus, button:focus {
     color:var(--white-color);
     background-color:var(--ocean-color);
+}
+.link:hover, .address:hover {
+    color:var(--ocean-color)
 }
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -43,6 +48,9 @@ a:hover, button:hover{
     font-weight: 400;
     font-style: normal;
 }
+.list {
+    list-style: none;
+}
 button{
     color:var(--iris-color);
     cursor: pointer;
@@ -51,7 +59,7 @@ button{
 h3{
     font-weight: 500;
 }
-footer{
+.footer {
     background-color:var(--navy-color);
     color:var(--cloud-color);
 }
