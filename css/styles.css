@@ -33,6 +33,7 @@ header{
     text-decoration: none;
     color:var(--slate-color);
     font-weight: 400;
+    letter-spacing: 0.02em;
 }
 .navigation {
     letter-spacing: 0.02em;
@@ -114,6 +115,8 @@ header{
     letter-spacing: 0.04em;
     font-weight: 500;
     line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
 }
 .index-button:hover,
 .index-button:active,
