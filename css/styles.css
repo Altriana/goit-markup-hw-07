@@ -62,8 +62,16 @@ address .list a {
     letter-spacing: 0.04em;
     background-color: var(--cloud-color);
 }
-h3{
+.heading {
     font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-color);
+}
+.par {
+    font-size: 16px;
+    color: var(--slate-color);
 }
 .footer {
     background-color:var(--navy-color);
