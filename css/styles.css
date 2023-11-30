@@ -15,17 +15,6 @@ body {
 header{
     background-color:var(--white-color);
 }
-.logo:hover, button:hover,
-.logo:focus, button:focus,
-.logo:active, button:active {
-    color:var(--white-color);
-    background-color:var(--ocean-color);
-}
-.link:hover, .address:hover,
-.link:focus, .address:focus,
-.link:active, .address:active {
-    color:var(--ocean-color)
-}
 .logo {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -39,17 +28,22 @@ header{
 .studio{
     color:var(--navy-color);
 }
-.link {
+.address{
+    font-style: normal;
+}
+.address  .list a {
+    text-decoration: none;
+    color: var(--slate-color);
+    font-weight: 400;
+    font-style: normal;
+}
+.navigation {
     letter-spacing: 0.02em;
     font-weight: 500;
     color: var(--navy-color);
-    text-decoration: none;
 }
-address .list a {
+.link {
     text-decoration: none;
-    color:var(--slate-color);
-    font-weight: 400;
-    font-style: normal;
 }
 .list {
     list-style: none;
@@ -61,6 +55,23 @@ address .list a {
     font-size: 16px;
     letter-spacing: 0.04em;
     background-color: var(--cloud-color);
+}
+.link:hover,
+.address:hover,
+.link:focus,
+.address:focus,
+.link:active,
+.address:active {
+    color: var(--ocean-color)
+}
+.logo:hover,
+.button:hover,
+.logo:focus,
+.button:focus,
+.logo:active,
+.button:active {
+    color: var(--white-color);
+    background-color: var(--ocean-color);
 }
 .heading {
     font-weight: 500;
