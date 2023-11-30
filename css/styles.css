@@ -16,11 +16,14 @@ header{
     background-color:var(--white-color);
 }
 .logo:hover, button:hover,
-.logo:focus, button:focus {
+.logo:focus, button:focus,
+.logo:active, button:active {
     color:var(--white-color);
     background-color:var(--ocean-color);
 }
-.link:hover, .address:hover {
+.link:hover, .address:hover,
+.link:focus, .address:focus,
+.link:active, .address:active {
     color:var(--ocean-color)
 }
 .logo {
@@ -51,10 +54,13 @@ address .list a {
 .list {
     list-style: none;
 }
-button{
+.button{
     color:var(--iris-color);
     cursor: pointer;
     font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    background-color: var(--cloud-color);
 }
 h3{
     font-weight: 500;
