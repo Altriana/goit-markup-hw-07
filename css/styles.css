@@ -42,7 +42,7 @@ header{
     color: var(--navy-color);
     text-decoration: none;
 }
-.address {
+address .list a {
     text-decoration: none;
     color:var(--slate-color);
     font-weight: 400;
