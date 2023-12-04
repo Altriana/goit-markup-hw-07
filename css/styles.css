@@ -106,7 +106,7 @@ body {
 }
 .li {
     border: 1px solid var(--cornflower-color);
-    margin: 20px 0;
+    margin: 25px 0;
 }
 .heading {
     font-weight: 500;
@@ -125,6 +125,7 @@ body {
 .footer {
     background-color:var(--navy-color);
     color:var(--cloud-color);
+    padding: 100px;
 }
 .par-footer {
     letter-spacing: 0.02em;
@@ -183,4 +184,7 @@ body {
 }
 .point {
     background-color: var(--white-color);
+}
+.box {
+    width: 264px;
 }
