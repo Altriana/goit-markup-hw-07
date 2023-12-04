@@ -102,6 +102,11 @@ body {
 }
 .link-list {
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+.li {
+    border: 1px solid var(--cornflower-color);
+    margin: 20px 0;
 }
 .heading {
     font-weight: 500;
@@ -109,11 +114,13 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navy-color);
+    padding: 10px 10px 0 10px;
 }
 .par {
     font-size: 16px;
     color: var(--slate-color);
     letter-spacing: 0.02em;
+    padding: 0 0 10px 10px;
 }
 .footer {
     background-color:var(--navy-color);
