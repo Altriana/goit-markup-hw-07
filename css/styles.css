@@ -5,6 +5,7 @@
     --navy-color:#2E2F42;
     --cloud-color:#F4F4FD;
     --slate-color:#434455;
+    --cornflower-color:#E7E9FC;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -12,8 +13,20 @@ body {
     line-height: 1.5;
     background-color: var(--white-color);
 }
-header{
+.container {
+    width: 1158px;
+    justify-content: center;
+}
+.header {
     background-color:var(--white-color);
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid var(--cornflower-color);
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
 }
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -34,17 +47,29 @@ header{
     color:var(--slate-color);
     font-weight: 400;
     letter-spacing: 0.02em;
+    margin: 0 20px;
 }
 .navigation {
     letter-spacing: 0.02em;
     font-weight: 500;
     color: var(--navy-color);
+    margin: 0 20px;
 }
 .link {
     text-decoration: none;
 }
 .list {
     list-style: none;
+    display: flex;
+}
+.section {
+    padding: 120px 0;
+}
+.hide {
+    display:none;
+}
+.button-list {
+    justify-content: center;
 }
 .button{
     color:var(--iris-color);
@@ -55,6 +80,10 @@ header{
     background-color: var(--cloud-color);
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
+    padding: 12px 24px;
+    margin:12px;
+    border: 1px solid var(--cornflower-color);
+    border-radius: 4px;
 }
 .link:hover,
 .link:focus,
@@ -70,6 +99,9 @@ header{
 .button:active {
     color: var(--white-color);
     background-color: var(--ocean-color);
+}
+.link-list {
+    flex-wrap: wrap;
 }
 .heading {
     font-weight: 500;

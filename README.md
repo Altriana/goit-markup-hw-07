@@ -1,4 +1,3 @@
-# goit-markup-hw-02
+# goit-markup-hw-03
 
-https://github.com/Altriana/goit-markup-hw-02
- 
+https://github.com/Altriana/goit-markup-hw-03
