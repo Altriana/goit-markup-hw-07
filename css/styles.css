@@ -1,3 +1,7 @@
+*{
+    margin:0;
+    padding: 0;
+}
 :root{
     --iris-color:#4D5AE5;
     --ocean-color:#404BBF;
