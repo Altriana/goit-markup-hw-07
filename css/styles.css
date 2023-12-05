@@ -76,12 +76,16 @@ body {
 .section {
     padding:120px 0;
 }
+.portfolio {
+    padding: 96px 0 120px 0;
+}
 .visually-hiden {
     overflow: hidden;
     display: none;
 }
 .button-list {
     justify-content: center;
+    gap: 24px;
 }
 .button{
     color:var(--iris-color);
@@ -93,9 +97,13 @@ body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
     padding: 12px 24px;
-    margin:0 12px 24px 12px;
     border: 1px solid var(--cornflower-color);
     border-radius: 4px;
+}
+.hover:hover,
+.hover:focus,
+.hover:active {
+    border:1px solid transparent;
 }
 .link:hover,
 .link:focus,
@@ -115,10 +123,14 @@ body {
 .link-list {
     flex-wrap: wrap;
     justify-content: space-between;
+    column-gap: 24px;
+    row-gap: 48px;
+    margin: 0 auto;
+    width: calc((100%-48px)/3);
 }
-.li {
+.point-li {
     border: 1px solid var(--cornflower-color);
-    margin: 25px 0;
+    width: calc((100%-48px)/3);
 }
 .heading {
     font-weight: 500;
@@ -133,6 +145,9 @@ body {
     color: var(--slate-color);
     letter-spacing: 0.02em;
     padding: 0 0 10px 10px;
+}
+.products {
+    
 }
 .footer {
     background-color:var(--navy-color);
