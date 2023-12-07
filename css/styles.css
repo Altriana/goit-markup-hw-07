@@ -1,3 +1,7 @@
+* {
+margin: 0;
+padding: 0;
+}
 :root{
     --iris-color:#4D5AE5;
     --ocean-color:#404BBF;
@@ -56,7 +60,6 @@ body {
     color:var(--slate-color);
     font-weight: 400;
     letter-spacing: 0.02em;
-    margin: 0 20px;
 }
 .navigation {
     letter-spacing: 0.02em;
@@ -66,7 +69,11 @@ body {
 }
 .nav-list {
     gap: 40px;
-    padding: 8px;
+    padding: 24px 0;
+}
+.address-list {
+    padding: 24px 0 24px 120px;
+    gap:40px;
 }
 .link {
     text-decoration: none;
@@ -154,7 +161,6 @@ body {
     font-size: 16px;
     color: var(--slate-color);
     letter-spacing: 0.02em;
-    margin: 0;
 }
 .products {
 padding: 32px 16px;
@@ -170,7 +176,6 @@ margin-bottom: 8px;
 .par-footer {
     letter-spacing: 0.02em;
     width: 264px;
-    margin: 0;
 }
 .studio-footer{
     color: var(--cloud-color);
@@ -190,7 +195,6 @@ margin-bottom: 8px;
 }
 .second-section{
     gap: 24px;
-    margin:0;
 }
 .third-section {
     padding-top: 0;
@@ -253,7 +257,6 @@ margin-bottom: 8px;
 }
 .par-index-two {
     letter-spacing: 0.02em;
-    margin: 0;
     text-align: center;
 }
 .two-heading {
