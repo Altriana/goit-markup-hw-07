@@ -66,6 +66,7 @@ body {
 }
 .nav-list {
     gap: 40px;
+    padding: 8px;
 }
 .link {
     text-decoration: none;
@@ -124,11 +125,8 @@ body {
 .address:hover {
     color: var(--ocean-color)
 }
-.logo:hover,
 .button:hover,
-.logo:focus,
 .button:focus,
-.logo:active,
 .button:active {
     color: var(--white-color);
     background-color: var(--ocean-color);
@@ -172,6 +170,7 @@ margin-bottom: 8px;
 .par-footer {
     letter-spacing: 0.02em;
     width: 264px;
+    margin: 0;
 }
 .studio-footer{
     color: var(--cloud-color);
@@ -191,12 +190,19 @@ margin-bottom: 8px;
 }
 .second-section{
     gap: 24px;
+    margin:0;
+}
+.third-section {
+    padding-top: 0;
 }
 .point-list-section-two {
     width: calc((100% - 72px) / 4);
 }
 .point-list-section-three {
     width: calc((100% - 48px) / 3);
+}
+.point-list-section-two h3 {
+    text-align: left;
 }
 .four-section {
     background-color: var(--cloud-color);
@@ -239,11 +245,15 @@ margin-bottom: 8px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
     margin:  0 0 8px 0;
+    text-align: center;
 }
 .par-index {
     letter-spacing: 0.02em;
+}
+.par-index-two {
+    letter-spacing: 0.02em;
+    margin: 0;
     text-align: center;
 }
 .two-heading {
