@@ -10,6 +10,7 @@ padding: 0;
     --cloud-color:#F4F4FD;
     --slate-color:#434455;
     --cornflower-color:#E7E9FC;
+    --grey-color: #2E2F42B2;
 }
 img {
     display: block;
@@ -188,10 +189,12 @@ margin-bottom: 8px;
     background-color: var(--navy-color);
     color: var(--white-color);
     display: block;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 188px 0;
+    background-image: 
+    linear-gradient(var(--grey-color),var(--grey-color)),
+    url(../images/people.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .second-section{
     gap: 24px;
@@ -231,7 +234,7 @@ margin-bottom: 8px;
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
     padding: 16px 32px;
-    margin: 40px auto;
+    margin: 48px auto 0 auto;
     border-radius: 4px;
     border: 0;
     min-width: 169px;
