@@ -174,6 +174,7 @@ margin-bottom: 8px;
     background-color:var(--navy-color);
     color:var(--cloud-color);
     padding: 100px 0;
+    display: flex;
     }
 .par-footer {
     letter-spacing: 0.02em;
@@ -185,6 +186,22 @@ margin-bottom: 8px;
 .link-footer {
     margin-bottom: 16px;
     display: inline-block;
+}
+.container-social {
+    flex-grow: 1;
+    padding-left: 120px;
+}
+.four-heading {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    color: var(--white-color);
+    margin-bottom: 16px;
+}
+.footer-list {
+    display: flex;
+    gap: 16px;
+
 }
 .first-section {
     background-color: var(--navy-color);
@@ -240,6 +257,11 @@ margin-bottom: 8px;
 .svg-three {
     height: 56px;
     width: 104px;
+}
+.svg-four {
+    height: 24px;
+    width: 24px;
+    margin: 8px;
 }
 .five-section {
     justify-content: center;
