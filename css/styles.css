@@ -205,6 +205,37 @@ margin-bottom: 8px;
 .point-list-section-two {
     width: calc((100% - 72px) / 4);
 }
+.icons {
+    background-color: var(--cloud-color);
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.svg {
+    width: 64px; 
+    height: 64px;
+}
+.social-team {
+   display: flex;
+   gap: 24px;
+   justify-content: center;
+   align-items: center;
+
+}
+.icons-team {
+    background-color: var(--iris-color);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.svg-two {
+    height: 16px;
+    width: 16px;
+    margin: 12px;
+}
 .point-list-section-three {
     width: calc((100% - 48px) / 3);
 }
@@ -252,7 +283,7 @@ margin-bottom: 8px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin:  0 0 8px 0;
+    margin: 8px 0;
     text-align: center;
 }
 .par-index {
@@ -261,6 +292,7 @@ margin-bottom: 8px;
 .par-index-two {
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
 }
 .two-heading {
     font-weight: 700;
