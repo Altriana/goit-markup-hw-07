@@ -11,6 +11,7 @@ padding: 0;
     --slate-color:#434455;
     --cornflower-color:#E7E9FC;
     --grey-color: #2E2F42B2;
+    --light-color: #8E8F99;
 }
 img {
     display: block;
@@ -236,11 +237,28 @@ margin-bottom: 8px;
     width: 16px;
     margin: 12px;
 }
+.svg-three {
+    height: 56px;
+    width: 104px;
+}
+.five-section {
+    justify-content: center;
+    gap: 24px;
+}
 .point-list-section-three {
     width: calc((100% - 48px) / 3);
 }
 .point-list-section-two h3 {
     text-align: left;
+}
+.point-list-section-five {
+    border: 1px solid var(--light-color);
+    border-radius: 4px;
+    display: flex;
+    height: 88px;
+    width: 168px;
+    justify-content: center;
+    align-items: center;
 }
 .four-section {
     background-color: var(--cloud-color);
