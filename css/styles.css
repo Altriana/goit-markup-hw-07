@@ -37,6 +37,7 @@ body {
     background-color:var(--white-color);
     justify-content: space-around;
     border-bottom: 1px solid var(--cornflower-color);
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 .nav {
     display: flex;
@@ -221,10 +222,13 @@ border-top: none;
     display: block;
     padding: 188px 0;
     background-image: 
-    linear-gradient(var(--grey-color),var(--grey-color)),
+    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/people.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    max-width: 1440px;
+    background-size: cover;
+    margin: auto;
 }
 .second-section{
     gap: 24px;
@@ -243,8 +247,9 @@ border-top: none;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 8px;
 }
-.svg {
+.icons > svg {
     width: 64px; 
     height: 64px;
 }
@@ -377,7 +382,9 @@ border-top: none;
 .point {
     background-color: var(--white-color);
     border-radius: 0 0 4px 4px;
-    box-shadow: 0px 1px 1px 0px #2E2F4229, 0px 1px 6px 0px #2E2F4214;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
     width: calc((100% - 72px) / 4);
 }
 .name-workplace {
