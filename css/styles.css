@@ -162,8 +162,17 @@ body {
 .point-li {
     width: calc((100% - 48px) / 3);
 }
+.point-li a {
+    display: block;
+}
 .point-li:hover {
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.point-li a:hover,
+.point-li:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .heading {
     font-weight: 500;
@@ -191,7 +200,9 @@ border-top: none;
     }
 .footer-container {
     align-items: baseline;
-    gap: 120px;
+}
+.margin {
+    margin-right: 120px;
 }
 .par-footer {
     letter-spacing: 0.02em;
@@ -310,11 +321,13 @@ svg {
 .svg-three {
     height: 56px;
     width: 104px;
+    fill: currentColor;
 }
 .link-five:hover,
 .link-five:focus {
     fill: var(--ocean-color);
     border-color: var(--ocean-color);
+    color: var(--ocean-color);
 }
 .svg-four {
     height: 24px;
@@ -350,6 +363,7 @@ svg {
     align-items: center;
     display: flex;
     fill: var(--light-color);
+    color: var(--light-color);
 }
 .four-section {
     background-color: var(--cloud-color);
