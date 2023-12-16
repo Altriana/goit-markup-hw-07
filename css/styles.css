@@ -189,6 +189,10 @@ border-top: none;
     padding: 100px 0;
     display: flex;
     }
+.footer-container {
+    align-items: baseline;
+    gap: 120px;
+}
 .par-footer {
     letter-spacing: 0.02em;
     width: 264px;
@@ -200,14 +204,23 @@ border-top: none;
     margin-bottom: 16px;
     display: inline-block;
 }
+.links-footer {
+    width: 100%;
+    height: 100%;
+    background-color: var(--iris-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .container-social {
     flex-grow: 1;
-    padding-left: 120px;
 }
 .four-heading {
     font-weight: 500;
     letter-spacing: 0.02em;
     font-size: 16px;
+    line-height: 1.5;
     color: var(--white-color);
     margin-bottom: 16px;
 }
@@ -259,24 +272,16 @@ border-top: none;
    justify-content: center;
    align-items: center;
 }
-.icons-team {
-    background-color: var(--iris-color);
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-}
-.icons-team:hover,
-.icons-team:focus {
+.media-link:hover,
+.media-link:focus {
     background-color: var(--ocean-color);
 }
 .icons-footer {
-    background-color: var(--iris-color);
-    border-radius: 50%;
     height: 40px;
     width: 40px;
 }
-.icons-footer:hover,
-.icons-footer:focus {
+.links-footer:hover,
+.links-footer:focus {
     background-color: var(--green-color);
 }
 .media-link {
@@ -284,11 +289,16 @@ border-top: none;
     height: 100%;
     background-color: var(--iris-color);
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .svg-two {
+    fill: var(--cloud-color);
+}
+.media-link > svg {
     height: 16px;
     width: 16px;
-    margin: 12px;
 }
 .svg-three {
     height: 56px;
@@ -304,7 +314,11 @@ border-top: none;
     width: 24px;
     margin: 8px;
 }
+.five-container {
+    display: block;
+}
 .five-section {
+    display: flex;
     justify-content: center;
     gap: 24px;
 }
@@ -315,14 +329,19 @@ border-top: none;
     text-align: left;
 }
 .point-list-section-five {
-    border: 1px solid var(--light-color);
-    border-radius: 4px;
     display: flex;
     height: 88px;
-    width: 168px;
+    width: calc((100% - 120px) / 6);
+    }
+.link-five {
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--light-color);
+    border-radius: 4px;
     justify-content: center;
     align-items: center;
-}
+    display: flex;
+    }
 .four-section {
     background-color: var(--cloud-color);
 }
