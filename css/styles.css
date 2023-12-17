@@ -414,7 +414,7 @@ svg {
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--navy-color);
     margin-bottom: 72px;
 }
 .point {
