@@ -143,14 +143,6 @@ body {
     color: var(--white-color);
     background-color: var(--ocean-color);
 }
-.navigation:hover::after {
-    display:block;
-    content: " ";
-    width: auto;
-    height: 4px;
-    background-color: var(--ocean-color);
-    border-radius: 2px;
-}
 .link-list {
     display: flex;
     flex-wrap: wrap;
@@ -164,9 +156,6 @@ body {
 }
 .point-li a {
     display: block;
-}
-.point-li:hover {
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .point-li a:hover,
 .point-li a:focus,
