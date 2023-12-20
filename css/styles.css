@@ -153,7 +153,7 @@ body {
 }
 .point-li {
     width: calc((100% - 48px) / 3);
-}
+    }
 .point-li a {
     display: block;
 }
@@ -163,6 +163,31 @@ body {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.port-anime-img {
+    position: relative;
+    overflow: hidden;
+}
+.port-anime {
+    color: var(--cloud-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2em;
+    background-color: var(--iris-color);
+    width: 360px;
+    height: 300px;
+    padding: 40px 32px;
+    position: absolute;
+    transform: translateY(100%);
+    top: 0;
+    left: 0;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.port-anime-img:hover .port-anime,
+.port-anime-img:focus .port-anime
+ {
+    transform: translateY(0%)
 }
 .heading {
     font-weight: 500;
