@@ -290,10 +290,6 @@ border-top: none;
     justify-content: center;
     margin-bottom: 8px;
 }
-svg {
-    width: 64px;
-    height: 64px;
-}
 .icons > svg {
     width: 64px; 
     height: 64px;
@@ -478,12 +474,18 @@ svg {
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20),
         0px 1px 3px 0px rgba(0, 0, 0, 0.12),
         0px 1px 1px 0px rgba(0, 0, 0, 0.14);
-   /* anomation:animation */
-        /* transition-property: scale(0);
-    transition-duration: 1s;
-    transition-timing-function: linear;
-    transition-delay: 100ms; */
+    position: relative;
 }
-@keyframes animation {
-    
+.close-button {
+    position: absolute;
+    fill: var(--cornflower-color);
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.svg-x {
+    fill: var(--navy-color);
+    margin: auto;
 }
