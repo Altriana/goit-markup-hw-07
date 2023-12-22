@@ -70,12 +70,15 @@ body {
 .navigation {
     letter-spacing: 0.02em;
     font-weight: 500;
-    color: var(--ocean-color);
+    color: var(--slate-color)
     padding: 24px 0;
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.navigation:after {
+.navigation-activ{
+    color: var(--ocean-color);
+}
+.navigation-activ:after {
     content: "";
     position: absolute;
     width: 100%;
