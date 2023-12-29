@@ -535,4 +535,27 @@ border-top: none;
     background-color: var(--ocean-color);
     fill: var(--white-color);
 }
+.form {
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.legend {
+    color: var(--navy-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    margin-top: 72px;
+    margin-bottom: 16px;
+}
+.label {
+    color: var(--light-color);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.04em;
 
+}
