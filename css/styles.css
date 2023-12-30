@@ -592,3 +592,15 @@ border-top: none;
     margin-bottom: 24px;
     margin-top: 16px;
 }
+.input-container {
+    position: relative;
+}
+.icon-modal {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.icon-name {
+    padding: 3px 0;
+}
+.icon-phone
