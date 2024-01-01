@@ -269,6 +269,9 @@ border-top: none;
 .container-social {
     margin-right: 80px;
 }
+.empty {
+    
+}
 .subscribe {
     gap:24px;
 }
