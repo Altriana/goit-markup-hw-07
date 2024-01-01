@@ -270,8 +270,7 @@ border-top: none;
     margin-right: 80px;
 }
 .subscribe {
-    display: flex;
-    flex-direction: column;
+    gap:24px;
 }
 .email {
     border-radius: 4px;
@@ -286,12 +285,12 @@ border-top: none;
     padding: 8px 16px;
     width: 264px;
 }
-.button-footer {
+/* .button-footer {
     display: inline-flex;
     gap: 16px;
     justify-content: center;
-    text-align: center;
-}
+    text-align: center; */
+/* } */
 .footer-button {
     color: var(--white-color);
     background-color: var(--iris-color);
