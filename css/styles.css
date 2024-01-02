@@ -271,8 +271,6 @@ border-top: none;
 }
 .empty {
 }
-.subscribe { 
-}
 .email {
     border-radius: 4px;
     border: 1px solid var(--white-color);
@@ -285,9 +283,7 @@ border-top: none;
     letter-spacing: 0.04em;
     padding: 8px 16px;
     width: 264px;
-    gap: 24px;
     height: 40px;
-    display: flex;
 }
 /* .button-footer {
     display: inline-flex;
