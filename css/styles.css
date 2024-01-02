@@ -300,16 +300,15 @@ border-top: none;
     min-width: 165px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     text-align: left;
-}
-.form-footer {
     display: flex;
-    position: relative;
-    gap: 24px;
     justify-content: center;
     align-items: center;
 }
+.form-footer {
+    display: flex;
+    gap: 24px;
+}
 .svg-letter {
-    position: absolute;
     margin-left: 16px;
 }
 .four-heading {
