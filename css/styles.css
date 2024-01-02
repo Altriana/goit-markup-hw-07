@@ -270,11 +270,11 @@ border-top: none;
     margin-right: 80px;
 }
 .empty {
-
 }
-/* .subscribe { */
-    /* gap:24px; */
-/* } */
+.subscribe { 
+    gap:24px;
+    display: flex;
+}
 .email {
     border-radius: 4px;
     border: 1px solid var(--white-color);
