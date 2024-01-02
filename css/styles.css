@@ -305,6 +305,8 @@ border-top: none;
     display: flex;
     position: relative;
     gap: 24px;
+    justify-content: center;
+    align-items: center;
 }
 .svg-letter {
     position: absolute;
