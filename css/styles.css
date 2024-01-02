@@ -285,12 +285,6 @@ border-top: none;
     width: 264px;
     height: 40px;
 }
-/* .button-footer {
-    display: inline-flex;
-    gap: 16px;
-    justify-content: center;
-    text-align: center; */
-/* } */
 .footer-button {
     color: var(--white-color);
     background-color: var(--iris-color);
@@ -303,7 +297,7 @@ border-top: none;
     padding: 8px 24px;
     border-radius: 4px;
     border: 0;
-    min-width: 169px;
+    min-width: 165px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     text-align: left;
 }
@@ -314,8 +308,7 @@ border-top: none;
 }
 .svg-letter {
     position: absolute;
-    margin:48px 0;
-    margin-left: 100px;
+    margin-left: 16px;
 }
 .four-heading {
     font-weight: 500;
