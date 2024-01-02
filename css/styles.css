@@ -272,8 +272,6 @@ border-top: none;
 .empty {
 }
 .subscribe { 
-    gap: 24px;
-    display: flex;
 }
 .email {
     border-radius: 4px;
@@ -307,7 +305,6 @@ border-top: none;
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
     padding: 8px 24px;
-    margin: 40px 24px;
     border-radius: 4px;
     border: 0;
     min-width: 169px;
@@ -317,7 +314,7 @@ border-top: none;
 .form-footer {
     display: flex;
     position: relative;
-    /* gap: 24px; */
+    gap: 24px;
 }
 .svg-letter {
     position: absolute;
@@ -658,7 +655,7 @@ border-top: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hidden-checkbox:checked+.label> .checkbox {
-    background-color: var(--ocean-color)
+    background-color: var(--ocean-color);
     border: none;
     fill: var(--cloud-color);
 }
