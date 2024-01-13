@@ -127,8 +127,6 @@ body {
     }
     /* SECTION TWO */
     .second-section {
-        column-gap: 24px;
-        row-gap: 24px;
         flex-wrap: nowrap;
     }
     .three-heading {
