@@ -276,6 +276,7 @@ body {
 .par-footer {
     letter-spacing: 0.02em;
     width: 264px;
+    margin: auto;
 }
 
 .footer-heading {
@@ -334,8 +335,9 @@ fill: var(--cloud-color);
     line-height: 1.5;
     letter-spacing: 0.04em;
     padding: 8px 16px;
-    width: 100%;
+    width: 90vw;
     height: 40px;
+    max-width: 398px;
     }
 
 .footer-button {
@@ -378,7 +380,7 @@ fill: var(--cloud-color);
         border: 1px solid rgba(0, 0, 0, 0.10);
         width: 24px;
         height: 24px;
-        margin: 24px;
+        margin: 24px 0;
         border-radius: 50%;
         cursor: pointer;
         display: flex;
@@ -400,7 +402,7 @@ fill: var(--cloud-color);
         background-color: white;
         flex-flow: column nowrap;
         height: 100%;
-        padding-left: 40px;
+        padding: 0 40px;
         justify-content: space-between;
     }
     .mobile-button-close {
@@ -450,7 +452,8 @@ fill: var(--cloud-color);
     }
     .mobile-list {
         display: flex;
-        gap: 56px;
+        justify-content: space-between;
+        max-width: 328px;
     }
 
 
@@ -493,6 +496,7 @@ fill: var(--cloud-color);
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     .navigation {
+        display: inline-block;
         letter-spacing: 0.02em;
         font-weight: 500;
         color: var(--slate-color);
@@ -512,13 +516,12 @@ fill: var(--cloud-color);
         background-color: var(--ocean-color);
         color: var(--ocean-color);
         left: 0;
-        bottom: -3px;
+        bottom: -1px;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .nav-list {
         gap: 40px;
-        padding: 24px 0;
         display: flex;
     }
 
@@ -602,7 +605,6 @@ fill: var(--cloud-color);
     }
     .address-list {
         display: flex;
-        padding: 24px 0 24px 120px;
         gap: 40px;
     }
 
@@ -690,7 +692,8 @@ fill: var(--cloud-color);
 }
 
 .modal {
-    width: 408px;
+    width: 90%;
+    max-width: 408px;
     min-height: 584px;
     border-radius: 4px;
     background-color: var(--dairy-color);
@@ -840,7 +843,7 @@ fill: var(--cloud-color);
     fill: var(--iris-color);
 }
 
-/* STRONA PORTFOLIO */
+/* ----------------------STRONA PORTFOLIO--------------------------- */
 .portfolio {
     padding: 96px 0 120px 0;
     column-gap: 24px;
