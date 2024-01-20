@@ -12,13 +12,13 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container menu">
             <nav class="nav">
                 <a href="./index.html" class="logo link">Web<span class="studio">Studio</span>
                 </a>
                 <ul class="list nav-list">
-                    <li><a href="./index.html" class="navigation link">Studio</a></li>
-                    <li><a href="./portfolio.html" class="navigation link navigation-activ">Portfolio</a></li>
+                    <li><a href="./index.html" class="navigation link navigation-activ">Studio</a></li>
+                    <li><a href="./portfolio.html" class="navigation link">Portfolio</a></li>
                     <li><a href="" class="navigation link">Contacts</a></li>
                 </ul>
             </nav>
@@ -29,10 +29,77 @@
                 </ul>
             </address>
         </div>
+        <div class="mobile-menu">
+            <a href="./index.html" class="logo link">Web<span class="studio">Studio</span>
+            </a>
+            <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                <svg width="24" height="24" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                        clip-rule="evenodd"></path>
+                </svg>
+            </button>
+        </div>
+        <div class="js-menu-container">
+            <div class="mobile-button-close">
+                <button class="menu-toggle-close js-close-menu">
+                    <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" width="12" height="12">
+                        <path fill-rule="evenodd"
+                            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+            </div>
+            <nav class="nav">
+                <ul class="list nav-list">
+                    <li><a href="./index.html" class="one-heading link navigation-activ">Studio</a></li>
+                    <li><a href="./portfolio.html" class="one-heading link">Portfolio</a></li>
+                    <li><a href="" class="one-heading link">Contacts</a></li>
+                </ul>
+            </nav>
+            <address class="address">
+                <ul class="list address-list">
+                    <li><a href="tel:+110001111111" class="telefon link">+11 (000) 111-11-11</a></li>
+                    <li><a href="mailto:info@devstudio.com" class="mail link">info@devstudio.com</a></li>
+                </ul>
+            </address>
+            <div class="mobile-social">
+                <ul class="list mobile-list">
+                    <li class="icons-footer">
+                        <a href="" class="links-footer">
+                            <svg width="24" height="24" class="svg-four">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="icons-footer">
+                        <a href="" class="links-footer">
+                            <svg width="24" height="24" class="svg-four">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="icons-footer">
+                        <a href="" class="links-footer">
+                            <svg width="24" height="24" class="svg-four">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="icons-footer">
+                        <a href="" class="links-footer">
+                            <svg width="24" height="24" class="svg-four">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </header>
     <main>
         <section class="section portfolio">
-        <div class="container block">    
+        <div class="container">    
             <h1 class="visually-hidden">Our products</h1>
             <ul class="button-list list">
                 <li><button type="button" class="button hover">All</button></li>
@@ -225,7 +292,7 @@
                     growth solutions.</p>
             </div>
             <div class="container-social">
-                <p class="four-heading">Social media</p>
+                <p class="footer-heading">Social media</p>
                 <ul class="list footer-list">
                     <li class="icons-footer">
                         <a href="" class="links-footer">
@@ -258,10 +325,10 @@
                 </ul>
             </div>
             <div class="empty">
-                <p class="four-heading">Subscribe</p>
+                <p class="footer-heading">Subscribe</p>
                 <form class="form-footer">
-                    <label class="empty" for="subscribe">
-                        <input class="email" type="email" name="email" placeholder="E-mail" id="subscribe">
+                    <label class="label-email" for="subscribe">
+                        <input class="email" type="email" name="email" placeholder="E-mail" id="subscribe" required>
                     </label>
                     <button class="footer-button" type="submit">Subscribe
                         <svg width="24" height="24" class="svg-letter">
