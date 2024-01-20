@@ -369,6 +369,8 @@ fill: var(--cloud-color);
         justify-content: space-between;
         align-items: center;
         padding: 24px 16px;
+        border-bottom: 1px solid var(--cornflower-color);
+        box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
     }
     .menu-toggle {
         background-color: transparent;
@@ -845,14 +847,13 @@ fill: var(--cloud-color);
 
 /* ----------------------STRONA PORTFOLIO--------------------------- */
 .portfolio {
-    padding: 96px 0 120px 0;
-    column-gap: 24px;
-    row-gap: 48px;
+    padding: 48px 0;
 }
 .button-list {
-    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
     gap: 24px;
-    margin-bottom: 72px;
+    margin-bottom: 48px;
 }
 
 .button {
@@ -899,15 +900,17 @@ fill: var(--cloud-color);
     column-gap: 24px;
     row-gap: 48px;
     padding: 0;
+    flex-direction: column;
 }
 
 .point-li {
-    width: calc((100% - 48px) / 3);
+    max-width: 100%;
 }
 
 .point-li a {
     display: block;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    max-width: 360px;
 }
 
 .point-li a:hover,
@@ -943,6 +946,9 @@ fill: var(--cloud-color);
 .port-anime-img:focus .port-anime {
     transform: translateY(0%);
 }
+.port-anime-img img {
+    display: block;
+}
 
 .heading {
     font-weight: 500;
@@ -962,4 +968,35 @@ fill: var(--cloud-color);
     padding: 32px 16px;
     border: 1px solid var(--cornflower-color);
     border-top: none;
+}
+
+@media screen and (min-width: 768px) {
+    .button-list {
+        justify-content: center;
+        margin-bottom: 72px;
+    }
+    .link-list {
+        flex-direction: row;
+        row-gap: 72px;
+    }
+    .portfolio {
+        padding: 64px 0 96px 0;
+    }
+    .point-li {
+        width: calc((100% - 24px) / 2);
+    }
+}
+@media screen and (min-width: 1158px) {
+    .point-li {
+    width: calc((100% - 48px) / 3);
+    }
+    .button-list {
+        margin-bottom: 64px;
+    }
+    .link-list {
+        row-gap: 48px;
+    }
+    .portfolio {
+        padding: 96px 0 120px 0;
+    }
 }
